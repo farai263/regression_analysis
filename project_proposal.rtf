@@ -1,0 +1,11 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2907
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Garamond;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\ri334\sl276\slmult1\sa200\partightenfactor0
+
+\f0\fs24 \cf0 Proposal \
+I will use the Dummy Advertising and Sales dataset from Kaggle. The dataset has 4,572 rows and 5 columns. There are four columns whose values are numbers. They have money spent on TV, Radio and Social Media advertising and Sales (all in millions of dollars). Sales is the variable I want to predict. The fifth column, Influencer, is a category that says what type of influencer was used (Mega,Macro, Micro or Nano). To clean the data, I will check for missing values, duplicate rows and mixed data types. I will remove any rows with missing data but only if there are a few of them. Because a regression model needs numbers, I will convert the Influencer column into dummy (0 and 1) columns. To explore the data, I will make histograms to see how each variable is spread out, scatter plots of each type of spending against sales, and a correlation heatmap. I plan to use multiple linear regression, because the target (Sales) is a continuous number and I expect sales to go up in a straight line as spending goes up. I will split the data into a training set and a test set so I can check how well the model predicts data it has not seen. I will measure accuracy with R-Squared and Root Mean Squared Error, and I will look at the size of each coefficient to see which type of advertising medium has the biggest impact on sales.\
+}
